@@ -1,0 +1,35 @@
+.achievement {
+    padding: 120px 0;
+}
+.achievement-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.achievement-item {
+    max-width: 270px;
+    text-align: center;
+}
+.achievement-number {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 58px;
+    color: #10B582;
+}
+
+
+/* ==================================================584====================================== */
+@media (max-width: 1155px) {
+    .achievement-container {
+        justify-content: center;
+    }
+}
+
+/* ==================================================580====================================== */
+@media (max-width: 580px) {
+    .achievement {
+        padding: 60px 0;
+    }
+}

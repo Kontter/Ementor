@@ -1,0 +1,101 @@
+.choose {
+    padding: 120px 0;
+    background: #10B582;
+}
+.choose-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.choose-img {
+    position: relative;
+    width: 470px;
+    height: 322px;
+    margin-top: 30px;
+    background-image: url(../images/choose-man.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+}
+.choose-decor {
+    position: absolute;
+    width: 477px;
+    height: 322px;
+    left: 30px;
+    background-image: url(../images/choose-decor.png);
+    background-repeat: no-repeat;
+}
+.choose-right {
+    max-width: 500px;
+}
+.choose-title {
+    margin-bottom: 20px;
+    color: #FDFDFD;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 500;
+}
+.choose-descr {
+    margin-bottom: 50px;
+    color: #FDFDFD;
+}
+.choose-btn {
+    display: block;
+    max-width: 230px;
+    padding: 20px 74px;
+    box-sizing: border-box;
+    line-height: 16px;
+    font-weight: 500;
+    background: #FA9F42;
+    border-radius: 0px 20px;
+    transition: .3s;
+}
+.choose-btn:hover {
+    transform: scale(1.03);
+}
+
+
+/* ==================================================1030====================================== */
+@media (max-width: 1030px) {
+    .choose-container {
+        display: block;
+        text-align: center;
+    }
+    .choose-img {
+        max-width: 470px;
+        width: auto;
+        margin: 0 auto 30px auto;
+    }
+    .choose-right {
+        margin: 0 auto;
+    }
+    .choose-decor {
+        display: none;
+    }
+    .choose-btn {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* ==================================================580====================================== */
+@media (max-width: 580px) {
+    .choose {
+        padding: 60px 0;
+    }
+}
+
+
+
+/* ==================================================400====================================== */
+@media (max-width: 400px) {
+    .choose-title {
+        font-size: 53px;
+        line-height: 55px;
+    }
+}

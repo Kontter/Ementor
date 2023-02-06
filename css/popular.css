@@ -1,0 +1,148 @@
+.popular {
+    padding: 120px 0;
+}
+.popular-title {
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 58px;
+    text-align: center;
+}
+.popular-courses {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.popular-courses-item {
+    width: 270px;
+    padding: 190px 20px 20px 20px;
+    box-sizing: border-box;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    transition: .3s;
+}
+.popular-courses-item:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 5px 0px rgb(101 101 101 / 12%)
+}
+.popular-courses-descr {
+    font-weight: 500;
+    line-height: 16px;
+}
+.pci1 {
+    background-image: url(../images/popular-img1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.pci2 {
+    background-image: url(../images/popular-img2.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.pci3 {
+    background-image: url(../images/popular-img3.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.pci4 {
+    background-image: url(../images/popular-img4.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+.popular-all-courses-btn {
+    display: block;
+    max-width: 230px;
+    padding: 20px 74px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FDFDFD;
+    background: #10B582;
+    border-radius: 0px 20px;
+    transition: .3s;
+}
+.popular-all-courses-btn:hover {
+    transform: scale(1.03);
+}
+
+
+
+
+/* ==================================================1155====================================== */
+@media (max-width: 1155px) {
+    .popular-courses {
+        justify-content: center;
+    }
+}
+
+  
+
+/* ==================================================586====================================== */
+@media (max-width: 586px) {
+    .popular-courses-item {
+        width: 250px;
+    }
+    .pci1 {
+        background-position: 10px 20px;
+    }
+    .pci2 {
+        background-position: 10px 20px;
+    }
+    .pci3 {
+        background-position: 10px 20px;
+    }
+    .pci4 {
+        background-position: 10px 20px;
+    }
+}
+
+
+
+
+/* ==================================================580====================================== */
+@media (max-width: 580px) {
+    .popular {
+        padding: 60px 0;
+    }
+    .popular-title {
+        margin-bottom: 30px;
+    }
+    .popular-courses {
+        margin-bottom: 45px;
+    }
+}
+
+
+
+
+
+/* ==================================================545====================================== */
+@media (max-width: 545px) {
+    .popular-courses-item {
+        margin: 0 auto;
+    }
+    .popular-courses {
+        display: block;
+    }
+    .pci1 {
+        margin-bottom: 20px;    }
+    .pci2 {
+        margin-bottom: 20px;    }
+    .pci3 {
+        margin-bottom: 20px;    }
+}
+
+
+
+
+/* ==================================================400====================================== */
+@media (max-width: 400px) {
+    .popular-title {
+        font-size: 47px;
+        line-height: 55px;
+    }
+}
